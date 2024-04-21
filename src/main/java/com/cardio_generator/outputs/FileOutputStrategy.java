@@ -7,13 +7,13 @@ import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
 import java.util.concurrent.ConcurrentHashMap;
 
-public class FileOutputStrategy implements OutputStrategy { // changed the class name to make it camelCase format
+public class FileOutputStrategy implements OutputStrategy { // changed the class name to make it UpperCamelCase format
 
     private String baseDirectory; //Changed to camelCase format
 
     public final ConcurrentHashMap<String, String> FILE_MAP = new ConcurrentHashMap<>(); //Changed to UPPER_SNAKE_CASE format
 
-    public FileOutputStrategy(String baseDirectory) {  // changed the class name to make it camelCase format  //Changed to camelCase format
+    public FileOutputStrategy(String baseDirectory) {  // changed the class name to make it UpperCamelCase format  //Changed to camelCase format
 
         this.baseDirectory = baseDirectory; //Changed to camelCase format
     }
