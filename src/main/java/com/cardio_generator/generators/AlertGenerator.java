@@ -6,7 +6,7 @@ import com.cardio_generator.outputs.OutputStrategy;
 
 public class AlertGenerator implements PatientDataGenerator {
 
-    public static final Random RANDOM_GENERATOR = new Random(); // Ichanged randomGenerator to RANDOM_GENERATOR because since it is a constant it should be in UPPER_SNAKE_CASE format
+    public static final Random RANDOM_GENERATOR = new Random(); // I changed randomGenerator to RANDOM_GENERATOR because since it is a constant it should be in UPPER_SNAKE_CASE format
     private boolean[] alertStates; // false = resolved, true = pressed  // I changed the variable name according to camelCase format
 
     public AlertGenerator(int patientCount) {
