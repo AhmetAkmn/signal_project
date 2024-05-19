@@ -66,3 +66,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Project Members
 - Student ID: 6362659
+
+## UML Models
+
+The UML diagrams for this project can be found in the `uml_models` directory. Each diagram is accompanied by a brief explanation.
+
+Here is the link for that;
+https://github.com/AhmetAkmn/signal_project/blob/master/uml_models/Diagramds.pdf   
